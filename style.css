@@ -1,0 +1,138 @@
+.sacramento-regular  {
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+h1 {
+    font-size: 5em;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+}
+.sub-heading{
+    font-size: 2em;
+    text-decoration: underline;
+    margin-top: 0%;
+}
+.top-container {
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   background-color: #E4C59E;
+}
+ @media(max-width:700px) {
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+    .image {
+        height: 150px;
+    }
+}
+.words{
+    color: #803D3B;
+    
+}
+.image1 {
+    margin-top: 20%;
+    padding-left: 20%;
+}
+.image {
+    align-self: flex-start;
+   padding-right: 20%;
+}
+.image3 {
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    max-width: 600px;
+    line-height: 2;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 3%;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.float {
+    display: inline-flex;
+}
+.skill {
+    max-width: 350px;
+    line-height: 2;
+    margin-left: 2%;
+}
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.project {
+    margin-top: 10%;
+    
+}
+.projects {
+    border: 2px solid #803D3B;
+    border-radius: 5%;
+    padding: 2%;
+}
+h3 {
+    font-weight: lighter;
+    font-size: x-large;
+}
+button {
+    color: #803D3B;
+    text-align: center;
+    background-color: #E4C59E;
+    border: none;
+    border-radius: 8%;
+    padding: 5% 10%;
+    cursor: pointer;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.footer-container {
+    background-color: #E4C59E;
+}
+.flex1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    padding-bottom: 40px;
+    color: white;
+}
+    
+h4 {
+    font-size: large;
+}
+
+
